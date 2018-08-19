@@ -1,0 +1,47 @@
+{
+	"basicdetails":{
+		"image":"featureimage.jpg",
+		"name":"T.Divya",
+		"email":"DivyaThota718@gmail.com",
+		"phno":"9963174858",
+	"address":"2-58,suddapalli,guntur(dist)"
+	},
+	"education":[
+		{
+		"course":"b.tech(cse)",
+		"collage":"vignan",
+		"percentage":"75%"
+		},
+		{
+		"course":"inter(mpc)",
+		"collage":"srichaitanya",
+		"percentage":"95%"
+		},
+		{
+		"course":"ssc",
+		"collage":"z.p.h.s",
+		"percentage":"85%"
+		}
+	],
+	"skills":[
+		{
+			"name":"operating systems",
+			"value":"Windows,Linux,MAC"
+		},
+		{
+			"name":"programming languages",
+			"value":"C,C++,Java,Python"
+		}],
+	"carrier":{
+		"ca":"I am using my knowledge and skills towards the growth of our orgnazation and i obey the orgnazation rules and take my responsibility end of working"
+	},
+	"Achevements":[
+		"I got first prize in chess compitation in my collage",
+		"I got second prize in tech submit in mumbai",
+		"I got second prize in skit compitation in my collage",
+		"I got first prize in power point presentation"
+		],
+
+"Description":{
+	"des":"I thereby declare that all the above mentioned are true is my resume"
+}}

@@ -1,0 +1,142 @@
+.main{
+	display:flex;
+	margin:2px;
+	border:2px solid#000;
+	background-color: yellow;
+	flex-wrap: wrap;
+}
+.first{display:flex;
+	margin:2px;
+	border:2px solid#000;
+	background-color: yellow;
+	flex-wrap: wrap;
+
+	}img{
+		width:400px;
+	}
+		 
+.left
+{
+	flex: 1;
+	margin:2px;
+	border:2px solid#000;
+	background-color: #FAEBD7;
+}
+.right{
+	flex:3;
+	margin:2px;
+	border:2px solid#000;
+	background-color: lightpink;
+}
+#b{
+	color:#FFAB;
+	font-size: 20px;
+	font-style: italic;
+}
+table,td,tr{
+	border:2px solid #000;
+	border-collapse: collapse;
+}
+@media only screen and (max-width: 480px){
+	.main{
+	display:flex;
+	margin:2px;
+	background-color: yellow;
+	/*flex-wrap: wrap;*/
+	flex-direction: column;
+}
+.first{display:flex;
+	margin:2px;
+	border:2px solid#000;
+	background-color: yellow;
+	flex-wrap: wrap;
+
+	}img{
+		width:100px;
+		border-radius: 20px;
+	}
+		 
+.left
+{
+	flex:1;
+	margin:2px;
+	background-color: #FAEBD7;
+}
+.right{
+	flex:3;
+	margin:2px;
+	background-color: lightpink;
+}
+}
+@media only screen and (min-width: 320px)and (max-width:480px) 
+{
+.main{
+	display:flex;
+	margin:2px;
+	border:2px solid#000;
+	background-color: yellow;
+	flex-wrap: wrap;
+	flex-direction:column;
+
+}
+.first{
+	display:flex;
+	margin:2px;
+	border:2px solid #000;
+	background-color: yellow;
+	flex-wrap: wrap;
+	flex-direction:column;
+
+	}
+
+.left
+{
+	flex: 1;
+	margin:2px;
+	border:2px solid#000;
+	background-color: #FAEBD7;
+}
+.right{
+	flex:3;
+	margin:2px;
+	border:2px solid#000;
+	background-color: lightpink;
+}
+}
+@media only screen and (min-width: 481px)and (max-width:768px) 
+{
+.main{
+	display:flex;
+	margin:2px;
+	border:2px solid#000;
+	background-color: yellow;
+	flex-wrap: wrap;
+	/*flex-direction:row;*/
+	flex justify-content: center;
+
+}
+.first{
+	display:flex;
+	margin:2px;
+	border:2px solid #000;
+	background-color: red;
+	flex-wrap: wrap;
+	/*flex-direction:row;*/
+	flex justify-content: center;
+
+	}
+
+.left
+{
+	flex: 1;
+	margin:2px;
+	border:2px solid#000;
+	background-color: green;
+}
+.right{
+	flex:3;
+	margin:2px;
+	border:2px solid#000;
+	background-color:blue;
+}
+}
